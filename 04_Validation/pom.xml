@@ -1,0 +1,10 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.karlkyck.valuetypes-in-java8</groupId>
+        <artifactId>parent-pom</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>04_Validation</artifactId>
+</project>

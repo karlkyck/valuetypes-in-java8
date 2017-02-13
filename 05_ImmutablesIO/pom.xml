@@ -1,0 +1,23 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.karlkyck.valuetypes-in-java8</groupId>
+        <artifactId>parent-pom</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>05_ImmutablesIO</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.immutables</groupId>
+            <artifactId>value</artifactId>
+            <version>${immutables.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <properties>
+        <immutables.version>2.4.3</immutables.version>
+    </properties>
+</project>
